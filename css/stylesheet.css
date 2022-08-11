@@ -1,0 +1,91 @@
+/*------ Nav Bar ------*/
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+nav li {
+    float: right;
+}
+  
+nav li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+  
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #111;
+}
+
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+footer li {
+    float: left;
+}
+
+footer li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 8px;
+    text-decoration: none;
+ }
+
+ /* Change the link color to #111 (black) on hover */
+footer li a:hover {
+    background-color: #111;
+}
+
+/*---------- Blog Post Cards ----------*/
+.blogcard-post {
+    background: #fff;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
+ }
+  
+.blogcard-category{
+    border: none;
+    outline: none;
+    background: #ff5e62;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    max-width: 100px;
+    position: absolute;
+}
+
+.blogcard-img{
+    object-fit: scale-down;
+}
+
+.blogcard-button {
+    border: none;
+    outline: none;
+    background: #333;
+    padding: 15px 20px;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.2rem;
+    box-shadow: 1px 10px 2rem #333;
+    text-decoration: none;
+}
+  
+.blogcard-button:hover {
+    box-shadow: 0px 5px 1rem rgba(255, 94, 98, 0.5);
+}
