@@ -1,7 +1,13 @@
+/*------ Global Settings --------*/
+html {
+    font-family: 'Oxygen', sans-serif;
+}
+
 /*------ Nav Bar ------*/
 nav {
     border-bottom: 1px solid lightslategray;
 }
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -18,7 +24,7 @@ nav li a {
    display: block;
    color: black;
    text-align: center;
-   padding: 14px 16px;
+   margin: 14px 16px;
    text-decoration: none;
 }
   
@@ -28,8 +34,7 @@ nav li a:hover {
 }
 
 nav img {
-    height: 32px;
-    width: 32px;
+    width: 24px;
 }
 
 /*------- Body ---------------*/
@@ -48,6 +53,7 @@ nav img {
     margin-right: auto;
     display: block;
     width: 100%;
+    padding-bottom: 50px;
 }
 
 /*---------- Blog Post Cards ----------*/
@@ -58,6 +64,7 @@ nav img {
     border-radius: 10px;
     box-shadow: 1px 1px 2rem rgba(0, 0, 0, 0.3);
     display: inline;
+    position: relative;
  }
   
 .blogcard-category{
@@ -69,6 +76,9 @@ nav img {
     border-radius: 5px;
     font-size: 16px;
     max-width: 100px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
 }
 
 .blogcard-img img{
@@ -115,7 +125,7 @@ footer li {
 
 footer li a {
     display: block;
-    color: grey;
+    color: rgb(49, 48, 48);
     text-align: center;
     padding: 6px 8px;
     text-decoration: none;
@@ -124,4 +134,8 @@ footer li a {
  /* Change the link color to #111 (black) on hover */
 footer li a:hover {
     background-color: #111;
+}
+
+footer p {
+    font-size: smaller;
 }
