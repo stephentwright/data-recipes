@@ -67,18 +67,29 @@ nav img {
     position: relative;
  }
   
-.blogcard-category{
+.blogcard-category {
     border: none;
     outline: none;
-    background: #ff5e62;
     color: white;
     padding: 5px 15px;
     border-radius: 5px;
     font-size: 16px;
-    max-width: 100px;
+    width: 150px;
     position: absolute;
     left: 10px;
     top: 10px;
+}
+
+.post-type-ux {
+    background: #ffad95;
+}
+
+.post-type-code {
+    background: #5e8ee1;
+}
+
+.post-type-society {
+    background: #ffec56;
 }
 
 .blogcard-img img{
@@ -103,6 +114,10 @@ nav img {
 }
 
 .blogcard-button:hover {
+    box-shadow: 0px 1px 1rem rgba(255, 94, 98, 0.5);
+}
+
+.blogcard-post:hover {
     box-shadow: 0px 1px 1rem rgba(255, 94, 98, 0.5);
 }
 
@@ -138,4 +153,11 @@ footer li a:hover {
 
 footer p {
     font-size: smaller;
+}
+
+/*------------ ABOUT --------------*/
+.pic-of-me img{
+    width:150px;
+    border-radius: 150px;
+    border: 5px solid #5e8ee1;
 }
