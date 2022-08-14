@@ -39,7 +39,7 @@ nav img {
 
 /*------- Body ---------------*/
 .content {
-    max-width: 1080px;
+    max-width: 980px;
     margin: 0 auto;
     padding: 25px;;
     display: flex;
@@ -80,6 +80,10 @@ nav img {
     top: 10px;
 }
 
+.blogcard-category p {
+    margin: 0;
+}
+
 .post-type-ux {
     background: #ffad95;
 }
@@ -89,7 +93,8 @@ nav img {
 }
 
 .post-type-society {
-    background: #ffec56;
+    background: #68fd6f;
+    color: #333;
 }
 
 .blogcard-img img{
@@ -114,11 +119,11 @@ nav img {
 }
 
 .blogcard-button:hover {
-    box-shadow: 0px 1px 1rem rgba(255, 94, 98, 0.5);
+    box-shadow: 0px 1px 1rem rgba(0, 0, 0, 0.3);
 }
 
 .blogcard-post:hover {
-    box-shadow: 0px 1px 1rem rgba(255, 94, 98, 0.5);
+    box-shadow: 0px 1px 1rem rgba(0, 0, 0, 0.3);
 }
 
 /*------ Footer ------*/
@@ -160,4 +165,47 @@ footer p {
     width:150px;
     border-radius: 150px;
     border: 5px solid #5e8ee1;
+}
+
+.about-me h1{
+    margin-bottom: 0px;
+}
+
+.socials-contact ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+}
+
+.socials-contact li a {
+    display: block;
+    color: black;
+    text-align: center;
+    margin: 5px 5px 5px 0px;
+    text-decoration: none;
+ }
+
+ .socials-contact li a:hover {
+    background-color: grey;
+}
+
+.socials-contact li {
+    float: left;
+}
+
+.button-contact button{
+    border: none;
+    outline: none;
+    background: #5e8ee1;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.button-contact button:hover {
+    box-shadow: 0px 1px 1rem rgba(94,142,225, 0.3);
 }
